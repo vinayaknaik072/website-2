@@ -10,12 +10,14 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
+    background-color: rgba(236, 236, 236, 0.37);
 }
 .top{
     flex: 0.5;
     display: flex;
     align-items: center;
     gap: 4px;
+    border: none;
     
 }
 .left{
@@ -35,25 +37,33 @@
     flex: 4;
     display: flex;
     justify-content: center;
+    border: none;
 }
 .card{
     position: fixed;
-    height: 350px;
+    height: 330px;
     width: 300px;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    gap: 15px;
+    padding: 4px;
+    border: none;
+
 }
 .top1{
     flex: 3;
     display: flex;
     flex-direction: column;
     padding: 4px;
+    background-color: white;
+    border-radius: 10px;
+     box-shadow: 4px 4px 5px  2px solid white;
+    border: none;
 }
 .top2{
     flex: 2;
     display: flex;
-   
+    border: none;
     justify-content: center;
     align-items: center;
     padding: 2px;
@@ -86,6 +96,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+     border: none;
     
 }
 .bottom2{
@@ -93,13 +104,90 @@
     display: flex;
     align-items: center;
     justify-content: center;
+     border: none;
 }
 .middle1{
     flex: 1;
     display: flex;
     border-radius: 10px;
+    max-height: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 3px  2px solid white;
+}
+.left3{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border: none;
+}
+.left4{
+    display: flex;
+    height: 40px;
+    width: 30px;
+    border: none;
+}
+.profile{
+    width: 50px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.right4{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.right3{
+    flex: 1;
+    display: flex;
+     align-items: center;
+    justify-content: end;
+    padding: 4px;
+    border: none;
+}
+.arrow{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    border: none;
 }
 .bottom1{
     flex: 1;
     display: flex;
+     border-radius: 10px;
+    max-height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 210, 210);
+    border: none;
+    box-shadow: 2px 2px 3px  1px solid rgb(248, 210, 210);
+}
+.left5{
+    display: flex;
+    height: 30px;
+    width: 30px;
+     align-items: center;
+    justify-content: center;
+    border: none;
+}
+.door{
+    height: 20px;
+    width: 15px;
+   
+}
+.right5{
+    display: flex;
+    height: 30px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(202, 15, 15);
+    border: none;
+
+
 }
