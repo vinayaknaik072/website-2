@@ -1,13 +1,13 @@
 
-import hello from'./Component1/hello'
+import Hello from './Component/hello'
 
 function App() {
- 
-
   return (
     <>
-      <div className='app'></div>
-      <hello/>
+      <div className="app">
+
+      </div>
+      <Hello/>
     </>
   )
 }

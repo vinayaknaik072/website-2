@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    div{
+        border: 1px solid black;
+    }
+}
+.main{
+    max-width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+}
+.left{
+    height: 30px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    height: 30px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.bottom{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position: fixed;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.top1{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+.top2{
+    flex: 2;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    
+}
+.circle{
+    display: flex;
+     border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 236, 70);
+    border: none;
+    
+}
+.circle1{
+    display: flex;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 30px;
+    left: 20px;
+     background-color: rgb(15, 236, 70);
+     border: 2px solid white;
+}
+.middle2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bottom2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle1{
+    flex: 1;
+    display: flex;
+    border-radius: 10px;
+}
+.bottom1{
+    flex: 1;
+    display: flex;
+}
