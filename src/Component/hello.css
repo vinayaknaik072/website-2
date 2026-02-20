@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     div{
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 }
 .main{
@@ -25,6 +25,10 @@
     width: 40px;
     align-items: center;
     justify-content: center;
+}
+.arrow1{
+    height: 25px;
+    width: 15px;
 }
 .right{
     height: 30px;
@@ -78,6 +82,9 @@
     justify-content: center;
     background-color: rgb(15, 236, 70);
     border: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: xx-large
     
 }
 .circle1{
@@ -87,7 +94,7 @@
     width: 15px;
     border-radius: 50%;
     top: 30px;
-    left: 20px;
+    left: -20px;
      background-color: rgb(15, 236, 70);
      border: 2px solid white;
 }
@@ -105,6 +112,7 @@
     align-items: center;
     justify-content: center;
      border: none;
+     font-size: small;
 }
 .middle1{
     flex: 1;
@@ -188,6 +196,7 @@
     justify-content: center;
     color: rgb(202, 15, 15);
     border: none;
+    font-family: sans-serif;
 
 
 }
