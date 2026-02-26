@@ -1,6 +1,6 @@
 import"./hello.css"
-import img from '../assets/arrow.png'
-import img1 from '../assets/profile2.png'
+import img from '../assets/arrow1.png'
+import img1 from '../assets/profile4.png'
 import img2 from '../assets/greater then.png'
 import img3 from '../assets/door icon.png'
 function hello(){
@@ -17,12 +17,12 @@ function hello(){
             <div className="card">
                 <div className="top1">
                     <div className="top2">
-                        <div className="circle">AD
+                        <div className="circle">US
                         </div>
                             <div className="circle1"></div>
                     </div>
-                    <div className="middle2"><h3>Admin</h3></div>
-                    <div className="bottom2"><p>admin@test.com</p></div>
+                    <div className="middle2"><h3>User</h3></div>
+                    <div className="bottom2"><p>user@test.com</p></div>
                 </div>
                 <div className="middle1">
                     <div className="left3">
