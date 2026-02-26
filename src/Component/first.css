@@ -1,0 +1,24 @@
+*{
+    div{
+         border: 0.5px solid rgb(218, 218, 211);
+    }
+}
+.main{
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.top{
+    height: 40px;
+    width:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient( red,orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+}
