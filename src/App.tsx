@@ -1,6 +1,6 @@
  
-// import Hello from './Component/hello'
-import First from'./Component/first'
+import Hello from './Component/hello'
+// import First from'./Component/first'
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
       <div className="app">
 
       </div>
-      {/* <Hello/> */}
-      <First/> 
+      <Hello/> 
+      {/* <First/>  */}
     </>
   )
 }

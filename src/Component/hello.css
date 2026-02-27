@@ -50,7 +50,6 @@
     border: none;
 }
 .card{
-    position: fixed;
     height: 330px;
     width: 300px;
     display: flex;
